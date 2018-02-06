@@ -7,6 +7,10 @@
 
 import UIKit
 
-class test: NSObject {
+class test {
+    
+    func teste() {
+        print("a")
+    }
 
 }
