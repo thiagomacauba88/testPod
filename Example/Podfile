@@ -1,11 +1,11 @@
 use_frameworks!
+swift_version = "4.0"
 
 target 'testPod_Example' do
   pod 'testPod', :path => '../'
-
+  
   target 'testPod_Tests' do
     inherit! :search_paths
-
     
   end
 end
