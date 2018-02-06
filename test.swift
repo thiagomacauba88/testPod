@@ -7,10 +7,10 @@
 
 import UIKit
 
-class test {
+open class test: NSObject {
     
-    func teste() {
-        print("a")
+    open func teste() -> String{
+        return("olar")
     }
 
 }
